@@ -4,7 +4,7 @@
 
 body {
   @apply bg-brandCream text-brandDark antialiased;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* Custom Slide-In Animation for the Order Form Drawer */
@@ -12,6 +12,7 @@ body {
   from {
     transform: translateX(100%);
   }
+
   to {
     transform: translateX(0);
   }
