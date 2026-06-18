@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brandCream text-brandDark antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Slide-In Animation for the Order Form Drawer */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
