@@ -14,10 +14,10 @@ const cakesData = [
 ];
 
 const pastriesData = [
-  { id: 5, name: 'Gourmet Cupcakes', description: 'Assorted vanilla, velvet and cream pastel premium cupcakes.', price: 120, image: '/cup.jpg' },
+  { id: 5, name: 'Gourmet Cupcakes', description: 'Assorted vanilla, velvet and cream pastel premium cupcakes', price: 120, image: '/cake/cup.jpg' },
   { id: 6, name: 'Fudge Brownies', description: 'Triple chocolate chewy squares baked with real dark cocoa fudge chunks.', price: 150, image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600' },
-  { id: 7, name: 'Strawberry Cheesecake', description: 'Classic NY style style dense cream cheese slice topped with glazes.', price: 250, image: '/strawberry.jpg' },
-  { id: 8, name: 'French Macarons', description: 'Colorful delicate almond meringue shells loaded with sweet ganache filling.', price: 300, image: '/color.jpg' }
+  { id: 7, name: 'Strawberry Cheesecake', description: 'Classic NY style style dense cream cheese slice topped with glazes.', price: 250, image: '/cake/strawberry.jpg' },
+  { id: 8, name: 'French Macarons', description: 'Colorful delicate almond meringue shells loaded with sweet ganache filling.', price: 300, image: '/cake/color.jpg' }
 ];
 
 export default function Home({ onAddToCart }) {
@@ -35,7 +35,7 @@ export default function Home({ onAddToCart }) {
         </div>
       </section>
 
-      {/* Pastries Section Container (From Screenshot 2026-06-16 213458.jpg) */}
+      {/* Pastries Section Container*/}
       <section id="pastries-section" className="max-w-7xl mx-auto px-12 py-12 text-center">
         <h2 className="text-4xl font-bold text-[#3d251e] mb-12">Delightful Pastries</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -13,7 +13,7 @@ const ALL_PASTRIES_DATA = [
     price: 85,
     meta: 'Fresh Baked • Eggless',
     description: 'Classic butter-laminated dough, proofed for 24 hours for ultimate honeycomb structure.',
-    image: '/p5.png'
+    image: '/cake/p5.png'
   },
   {
     id: 'chocolate-eclair',
@@ -22,7 +22,7 @@ const ALL_PASTRIES_DATA = [
     price: 90,
     meta: 'Chilled • Contains Egg',
     description: 'Delicate choux pastry piped with Madagascar vanilla bean cream and glazed with 70% dark chocolate.',
-    image: '/p6.png'
+    image: '/cake/p6.png'
   },
   {
     id: 'strawberry-tart',
@@ -31,7 +31,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Fresh Fruit • Eggless',
     description: 'Sweet sablee crust filled with silky creme patissiere and topped with farm-fresh berries.',
-    image: '/p7.png'
+    image: '/cake/p7.png'
   },
   {
     id: 'cream-puff',
@@ -40,7 +40,7 @@ const ALL_PASTRIES_DATA = [
     price: 850, // Matches your custom test dataset pricing
     meta: '1 kg • Eggless',
     description: 'Light-as-air profiteroles stuffed with freshly whipped chantilly and dusted with snow sugar.',
-    image: '/p1.png'
+    image: '/cake/p1.png'
   },
   // --- Middle Row (4 Cards) ---
   {
@@ -50,7 +50,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Authentic • Eggless',
     description: 'Mediterranean phyllo layers with crushed pistachios, walnuts, and orange blossom honey.',
-    image: '/p8.png'
+    image: '/cake/p8.png'
   },
   {
     id: 'apple-turnover',
@@ -59,7 +59,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Warm Serving • Eggless',
     description: 'Caramelized Granny Smith apples encased in a shattering, sugar-crusted puff pastry.',
-    image: '/p9.png'
+    image: '/cake/p9.png'
   },
   {
     id: 'cheese-danish',
@@ -68,7 +68,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Sweet Cream • Eggless',
     description: 'A tender danish pastry nestling a heart of sweet cream cheese and a hint of lemon zest.',
-    image: '/p10.png'
+    image: '/cake/p10.png'
   },
   {
     id: 'donut-pastry',
@@ -77,7 +77,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Glazed • Eggless',
     description: 'Brioche-style dough, slow-fried and glazed with our signature wild honey and vanilla reduction.',
-    image: '/p11.png'
+    image: '/cake/p11.png'
   },
   // --- Bottom Row (2 Cards) ---
   {
@@ -96,7 +96,7 @@ const ALL_PASTRIES_DATA = [
     price: 100,
     meta: 'Praline Crust • Eggless',
     description: 'Moist banana-infused sponge topped with caramelized fruit and toasted hazelnut praline.',
-    image: '/p13.png'
+    image: '/cake/p13.png'
   }
 ];
 
@@ -237,7 +237,7 @@ export default function Pastries() {
                     <div className="bg-white rounded-2xl p-4 flex items-center justify-between text-[#3d251e]">
                       <div className="flex items-center space-x-3">
                         <div className="w-12 h-12 bg-pink-100 rounded-xl overflow-hidden">
-                          <img src="/can1.jpg" alt="Candles" className="w-full h-full object-cover" />
+                          <img src="/cake/can1.jpg" alt="Candles" className="w-full h-full object-cover" />
                         </div>
                         <div>
                           <p className="text-sm font-medium">Premium Candles</p>
@@ -389,10 +389,10 @@ export default function Pastries() {
         <>
           {/* 1. HERO MOSAIC */}
           <section className="w-full pt-20 grid grid-cols-2 md:grid-cols-4 gap-0 leading-[0]">
-            <div className="h-[180px] sm:h-[260px] w-full"><img src="/p1.png" alt="Pastry 1" className="w-full h-full object-cover" /></div>
-            <div className="h-[180px] sm:h-[260px] w-full"><img src="/p2.jpg" alt="Pastry 2" className="w-full h-full object-cover" /></div>
-            <div className="h-[180px] sm:h-[260px] w-full"><img src="/p3.jpg" alt="Pastry 3" className="w-full h-full object-cover" /></div>
-            <div className="h-[180px] sm:h-[260px] w-full"><img src="/p4.jpg" alt="Pastry 4" className="w-full h-full object-cover" /></div>
+            <div className="h-[180px] sm:h-[260px] w-full"><img src="/cake/p1.png" alt="Pastry 1" className="w-full h-full object-cover" /></div>
+            <div className="h-[180px] sm:h-[260px] w-full"><img src="/cake/p2.jpg" alt="Pastry 2" className="w-full h-full object-cover" /></div>
+            <div className="h-[180px] sm:h-[260px] w-full"><img src="/cake/p3.jpg" alt="Pastry 3" className="w-full h-full object-cover" /></div>
+            <div className="h-[180px] sm:h-[260px] w-full"><img src="/cake/p4.jpg" alt="Pastry 4" className="w-full h-full object-cover" /></div>
           </section>
 
           {/* 2. HEADER TITLE DECK */}
@@ -467,8 +467,8 @@ export default function Pastries() {
           <section className="w-full bg-[#F5E6E3] py-20 px-4 md:px-12">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="grid grid-cols-2 gap-4 sm:gap-6">
-                <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-sm bg-zinc-100"><img src="/c10.jpg" alt="Custom Delivery Item 1" className="w-full h-full object-cover" /></div>
-                <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-sm bg-zinc-100"><img src="/c11.jpg" alt="Custom Delivery Item 2" className="w-full h-full object-cover" /></div>
+                <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-sm bg-zinc-100"><img src="/cake/c10.jpg" alt="Custom Delivery Item 1" className="w-full h-full object-cover" /></div>
+                <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-sm bg-zinc-100"><img src="/cake/c11.jpg" alt="Custom Delivery Item 2" className="w-full h-full object-cover" /></div>
               </div>
               <div className="text-left space-y-6 lg:pl-6">
                 <h2 className="text-4xl md:text-5xl font-serif font-normal text-[#3d251e] leading-tight">We accept birthday party & custom orders</h2>
@@ -477,7 +477,7 @@ export default function Pastries() {
                 </p>
                 <div className="pt-4">
                   <button 
-                    onClick={() => handleOpenCheckout({ name: 'Custom Celebration Party Box', price: 2500, meta: 'Tailored Event Package', image: '/c10.jpg' })} 
+                    onClick={() => handleOpenCheckout({ name: 'Custom Celebration Party Box', price: 2500, meta: 'Tailored Event Package', image: '/cake/c10.jpg' })} 
                     className="w-full sm:w-auto bg-[#E3357A] hover:bg-[#c92a68] text-white font-medium py-3.5 px-10 rounded-xl transition-all shadow-sm text-sm uppercase tracking-wider"
                   >
                     Book Now

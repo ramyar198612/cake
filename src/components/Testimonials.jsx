@@ -6,19 +6,19 @@ export default function Testimonials() {
       name: 'Sarah Jenkins',
       role: 'Verified Buyer',
       text: '"The best chocolate truffle I have ever had! The delivery was perfectly on time and the packaging kept the cake completely intact. Highly recommend!"',
-      avatar: '/sarah.jpg'
+      avatar: '/cake/sarah.jpg'
     },
     {
       name: 'Michael Roberts',
       role: 'Event Booking',
       text: '"We ordered a custom themed cake for my daughter\'s birthday. It looked absolutely stunning and tasted heavenly. Thank you for making her day special."',
-      avatar: '/mic.jpg'
+      avatar: '/cake/mic.jpg'
     },
     {
       name: 'Emily Chen',
       role: 'Verified Buyer',
       text: '"Their macarons are to die for! So fresh and the perfect texture. The hygiene and quality standards they maintain are truly impressive."',
-      avatar: '/emi.jpg'
+      avatar: '/cake/emi.jpg'
     }
   ];
 

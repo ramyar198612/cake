@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-md">
         <img 
-          src="/Homegreen.jpg" 
+          src="/cake/Homegreen.jpg" 
           alt="Mint Green Celebration Cake" 
           className="w-full h-full object-cover"
           onError={(e) => {

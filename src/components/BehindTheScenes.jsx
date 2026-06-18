@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function BehindTheScenes() {
   const processSteps = [
-    { title: 'Baking with Care', img: '/woman.jpg' },
-    { title: 'Artistic Decoration', img: 'art.jpg' },
-    { title: 'Safe Packaging', img: 'safe.jpg' }
+    { title: 'Baking with Care', img: '/cake/woman.jpg' },
+    { title: 'Artistic Decoration', img: '/cake/art.jpg' },
+    { title: 'Safe Packaging', img: '/cake/safe.jpg' }
   ];
 
   return (

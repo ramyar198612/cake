@@ -64,7 +64,7 @@ const FEATURED_CAKES_SECTION_TWO = [
     name: 'Pineapple',
     description: 'Rich, dense chocolate layers coated in a smooth ganache.',
     price: 850,
-    image: '/c5.jpg'
+    image: '/cake/c5.jpg'
   }
 ];
 
@@ -106,14 +106,14 @@ export default function Cake() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="h-[250px] sm:h-[380px] rounded-3xl overflow-hidden shadow-sm">
             <img 
-              src="/c1.jpg" 
+              src="/cake/c1.jpg" 
               alt="Featured Cake 1" 
               className="w-full h-full object-cover"
             />
           </div>
           <div className="h-[250px] sm:h-[380px] rounded-3xl overflow-hidden shadow-sm">
             <img 
-              src="/c2.jpg" 
+              src="/cake/c2.jpg" 
               alt="Featured Cake 2" 
               className="w-full h-full object-cover"
             />
@@ -199,14 +199,14 @@ export default function Cake() {
           <div className="grid grid-cols-2 gap-4 sm:gap-6">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md bg-zinc-100">
               <img 
-                src="/c10.jpg" 
+                src="/cake/c10.jpg" 
                 alt="Exquisite Custom Pastel Layered Cake" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md bg-zinc-100">
               <img 
-                src="c11.jpg" 
+                src="/cake/c11.jpg" 
                 alt="Unique Theme Styled Birthday Cake" 
                 className="w-full h-full object-cover"
               />

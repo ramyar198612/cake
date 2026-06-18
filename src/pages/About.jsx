@@ -42,7 +42,7 @@ export default function About() {
           {/* Right Image Column */}
           <div className="w-full h-[380px] md:h-[460px] rounded-[24px] overflow-hidden shadow-sm bg-zinc-100">
             <img 
-              src="/a1.jpg" 
+              src="/cake/a1.jpg" 
               alt="Sweet Delights Bakery Interior storefront" 
               className="w-full h-full object-cover"
             />
@@ -121,7 +121,7 @@ export default function About() {
           <div className="space-y-4 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-[#F2E5E2] shadow-sm bg-zinc-100">
               <img 
-                src="/a2.jpg" 
+                src="/cake/a2.jpg" 
                 alt="Chef Isabella Head Pastry Chef" 
                 className="w-full h-full object-cover"
               />
@@ -139,7 +139,7 @@ export default function About() {
           <div className="space-y-4 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-[#F2E5E2] shadow-sm bg-zinc-100">
               <img 
-                src="/a3.jpg" 
+                src="/cake/a3.jpg" 
                 alt="Rahul Sharma Master Chocolatier" 
                 className="w-full h-full object-cover"
               />
@@ -157,7 +157,7 @@ export default function About() {
           <div className="space-y-4 flex flex-col items-center">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-[#F2E5E2] shadow-sm bg-zinc-100">
               <img 
-                src="/a4.jpg" 
+                src="/cake/a4.jpg" 
                 alt="Mei Lin Lead Cake Decorator" 
                 className="w-full h-full object-cover"
               />
